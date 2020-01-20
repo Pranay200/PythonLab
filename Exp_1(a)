@@ -8,3 +8,11 @@ def cost(numBooks):
    print 'The total cost is: $', totalCost
 
 cost(numBooks)
+
+
+
+OUTPUT
+
+ace@ace-ThinkCentre-M70e:~/Desktop$ python book.py
+The total cost is: $ 1520.25
+ace@ace-ThinkCentre-M70e:~/Desktop$ 
