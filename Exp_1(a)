@@ -1,0 +1,10 @@
+bookCost = 24.55
+numBooks = 60.0
+
+def cost(numBooks):
+   bulkBookCost = (bookCost * numBooks)
+   shippingCost = (3.0 + (0.75 * (numBooks - 1)))
+   totalCost = bulkBookCost + shippingCost
+   print 'The total cost is: $', totalCost
+
+cost(numBooks)
